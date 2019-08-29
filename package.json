@@ -6,7 +6,8 @@
   "license": "MIT",
   "scripts": {
     "build": "webpack --config webpack.config.prod.js",
-    "test": "jest"
+    "test": "jest",
+    "lint": "eslint \"src/**/*.js\""
   },
   "husky": {
     "hooks": {
