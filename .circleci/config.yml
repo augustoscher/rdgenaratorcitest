@@ -11,7 +11,7 @@ jobs:
           command: yarn --frozen-lockfile
       - run:
           name: Run Tests
-          command: yarn test:ci
+          command: yarn test
       - run:
           name: Run ESLint
           command: yarn lint
